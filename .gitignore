@@ -62,3 +62,9 @@ models/
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Data and run artifacts (only the GDC manifests are tracked)
+/artifacts/*
+!/artifacts/data/
+/artifacts/data/*
+!/artifacts/data/manifests/
