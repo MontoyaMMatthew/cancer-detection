@@ -1,0 +1,11 @@
+# Python 3.14. Versions are the ones the saved results were produced with.
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+matplotlib==3.11.1
+seaborn==0.13.2
+pyarrow==26.0.1          # cohort.parquet
+openpyxl==3.1.5          # Ricketts Table S1 (.xlsx)
+requests==2.34.2         # GDC API
+huggingface_hub==2.4.0   # TITAN features, `hf auth login`
+tqdm==4.70.1
