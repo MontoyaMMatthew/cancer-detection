@@ -1,0 +1,4 @@
+model,macro_f1,clear_cell,papillary,chromophobe
+image,0.944,0.962,0.961,0.909
+rna,0.919,0.931,0.891,0.933
+fusion,0.945,0.957,0.941,0.938

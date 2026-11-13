@@ -62,3 +62,12 @@ models/
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Project data: downloads and derived arrays stay local.
+# TITAN features are licensed CC-BY-NC-ND and must not be redistributed.
+data/raw/
+data/processed/
+*.part
+
+# The "models/" rule above is for downloaded weights; keep the code package.
+!rcc/models/

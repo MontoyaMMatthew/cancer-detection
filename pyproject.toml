@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rcc"
+version = "0.1.0"
+description = "Multimodal RCC subtype classifier (TITAN slide embeddings + RNA expression)"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas",
+    "requests",
+    "pyarrow",
+    "openpyxl",
+    "huggingface_hub",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter"]
+
+[project.scripts]
+rcc = "rcc.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rcc*"]
