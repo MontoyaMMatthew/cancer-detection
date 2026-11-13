@@ -15,6 +15,9 @@ dependencies = [
     "openpyxl",
     "huggingface_hub",
     "tqdm",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
 ]
 
 [project.optional-dependencies]

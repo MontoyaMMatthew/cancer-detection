@@ -65,9 +65,17 @@ htmlcov/
 
 # Project data: downloads and derived arrays stay local.
 # TITAN features are licensed CC-BY-NC-ND and must not be redistributed.
-data/raw/
+data/raw/*
+!data/raw/labels/
+data/raw/labels/*
+# Ricketts et al. 2018 Table S1 (reviewed subtype labels) is small and kept.
+!data/raw/labels/mmc2.xlsx
 data/processed/
 *.part
 
 # The "models/" rule above is for downloaded weights; keep the code package.
 !rcc/models/
+
+
+### Misc
+zips/*
